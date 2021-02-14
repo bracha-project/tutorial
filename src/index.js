@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppDragDrop from './AppDragDrop';
+import List from './list';
 
-ReactDOM.render(<AppDragDrop />, document.getElementById('root'));
+ReactDOM.render(<List />, document.getElementById('root'));

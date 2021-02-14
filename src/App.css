@@ -50,4 +50,28 @@
   line-height: 5em;
 }
 
+.rotate {
+  transform: rotate(30deg);
+ }
+
+ #coverup {
+  background: white;
+  width: 170px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  transform: rotate(30deg);
+}
+ 
+ /* @keyframes rotate-keyframes {
+  from {
+   transform: rotate(0deg);
+  }
+ 
+  to {
+   transform: rotate(180deg);
+  }
+ } */
 
